@@ -61,7 +61,7 @@ function startGame() {
 
 function renderBox() {
   let box = document.createElement('div');
-  let randomSize = getRandom(20, 60);
+  let randomSize = getRandom(30, 65);
   let gameSize = game.getBoundingClientRect();
   
   let maxLeft = gameSize.width - randomSize;
